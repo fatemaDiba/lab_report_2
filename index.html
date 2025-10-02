@@ -16,72 +16,72 @@
       <p>Fill out the form and we will deliver fresh food to your door.</p>
     </div>
     <div>
-      <div>
-        <h3>Personal Information</h3>
-        <p>
-          Let us know who you are and where to deliver.
-        </p>
-      </div>
-      <form>
-        <div class="row">
-          <div class="col-6">
-            <label for="">
-              First Name:
-            </label>
-            <input type="text">
-          </div>
-          <div class="col-6">
-            <label for="">
-              Last Name:
-            </label>
-            <input type="text">
-          </div>
-
-          <div class="">
-            <label for="email">Email Address: </label>
-            <input type="email" name="" id="">
-          </div>
-
+      <form class="">
+        <div class="container">
           <div>
-            <label for="phn">Phone Number: </label>
-            <input type="number" name="" id="">
+            <h3>Personal Information</h3>
+            <p>
+              Let us know who you are and where to deliver.
+            </p>
           </div>
+          <div class="row">
 
-          <div>
-            <label for="delivery">Delivery Address: </label>
-            <textarea name="" id="" placeholder="Enter your address to deliver"></textarea>
-          </div>
+            <div class="mb-3">
+              <label for="firstName" class="form-label">First Name</label>
+              <input type="text" class="form-control" name="firstNames" id="firstName" aria-describedby="emailHelp">
+            </div>
 
-          <div>
-            <label for="meal">Meal Type:</label>
-            <select name="mealType" id="">
-              <option value="">Select a meal type</option>
-              <option value="breakfast">Breakfast</option>
-              <option value="lunch">Lunch</option>
-              <option value="snacks">Snacks</option>
-              <option value="dinner">Dinner</option>
-            </select>
-          </div>
+            <div class="mb-3">
+              <label for="lastName" class="form-label">Last Name</label>
+              <input type="text" class="form-control" name="lastName" id="lastName" aria-describedby="emailHelp">
+            </div>
 
-          <div>
-            <label for="time">Preferred Delivery Time: </label>
-            <div class="">
-              <input type="radio" name="" id="">As soon as possible
-              <input type="radio" name="" id="">In 30 minutes
-              <input type="radio" name="" id="">In 1 hour
-              <input type="radio" name="" id="">In 2 hours
-              <input type="radio" name="" id="">Contactiess delivery (leave at door)
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-3">
+              <label for="phnNumber" class="form-label">Phone Number</label>
+              <input type="email" class="form-control" name="phnNumber" id="phnNumber" aria-describedby="emailHelp">
+            </div>
+
+            <div>
+              <label for="delivery">Delivery Address: </label>
+              <textarea name="" id="" placeholder="Enter your address to deliver"></textarea>
+            </div>
+
+            <div>
+              <label for="meal">Meal Type:</label>
+              <select class="form-select" aria-label="Default select example" name="mealType" id="">
+                <option selected>Select a meal type</option>
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="snacks">Snacks</option>
+                <option value="dinner">Dinner</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="time">Preferred Delivery Time: </label>
+              <div class="">
+                <input type="radio" name="" id="">As soon as possible
+                <input type="radio" name="" id="">In 30 minutes
+                <input type="radio" name="" id="">In 1 hour
+                <input type="radio" name="" id="">In 2 hours
+                <input type="radio" name="" id="">Contactiess delivery (leave at door)
+              </div>
+            </div>
+
+            <div>
+              <label for="instruction">Special Instraction</label>
+              <textarea name="" id=""
+                placeholder="Any special request? (e.g., extra napkins, ring doorbell twice)"></textarea>
             </div>
           </div>
 
-          <div>
-            <label for="instruction">Special Instraction</label>
-            <textarea name="" id=""
-              placeholder="Any special request? (e.g., extra napkins, ring doorbell twice)"></textarea>
-          </div>
+          <button class="btn bg-success">Place Order</button>
         </div>
-
-        <button class="btn bg-success">Place Order</button>
       </form>
     </div>
   </main>
