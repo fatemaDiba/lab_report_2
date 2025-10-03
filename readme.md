@@ -70,4 +70,4 @@ Live Demo: (https://fatemadiba.github.io/lab_report_2/)
 ## Screenshot
 Here is a preview of the website:  
 
-![Order Meal Form Screenshot](./img/web.png)
+![Order Meal Form Screenshot](./img/website.png)
