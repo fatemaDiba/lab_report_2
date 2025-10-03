@@ -1,5 +1,5 @@
 .bg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/bg2.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./img/bg2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
