@@ -11,14 +11,14 @@
 </head>
 
 <body>
-  <main class="bg p-5">
-    <div class="container text-center text-white mb-5">
-      <h1>Order Your Favorite Meal</h1>
+  <main class="bg text-white">
+    <div class="container p-5 text-center ">
+      <h1 class="fw-bold ">Order Your Favorite Meal</h1>
       <p class="">Fill out the form and we will deliver fresh food to your door.</p>
     </div>
-    <div class="w-75 mx-auto">
-      <form class="form_bg p-5 rounded-5 text-black">
-        <div class="container">
+    <div class="col-lg-8 col-md-10 col-12 mx-auto">
+      <form class="form_bg p-4 p-md-5 rounded-4 shadow-lg">
+        <div>
           <div>
             <h3>Personal Information</h3>
             <p>
@@ -28,36 +28,39 @@
           <div>
             <div class="row">
               <div class="mb-3 col-6">
-                <label for="firstName" class="form-label">First Name:</label>
-                <input type="text" class="form-control" name="firstNames" id="firstName" required>
+                <label for="firstName" class="form-label fw-semibold">First Name:</label>
+                <input type="text" class="form-control" name="firstNames" id="firstName" placeholder="e.g. Fatema"
+                  required>
               </div>
 
               <div class="mb-3 col-6">
-                <label for="lastName" class="form-label">Last Name:</label>
-                <input type="text" class="form-control" name="lastName" id="lastName">
+                <label for="lastName" class="form-label fw-semibold">Last Name:</label>
+                <input type="text" class="form-control" name="lastName" id="lastName" placeholder="e.g. Tabassum">
               </div>
             </div>
 
             <div class="mb-3">
-              <label for="email" class="form-label">Email address:</label>
-              <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp">
+              <label for="email" class="form-label fw-semibold">Email address:</label>
+              <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp"
+                placeholder="e.g. abc@gmail.com" required>
             </div>
 
             <div class="mb-3">
-              <label for="phnNumber" class="form-label">Phone Number</label>
-              <input type="email" class="form-control" name="phnNumber" id="phnNumber" aria-describedby="emailHelp">
+              <label for="phnNumber" class="form-label fw-semibold">Phone Number</label>
+              <input type="email" class="form-control" name="phnNumber" id="phnNumber" placeholder="Enter your number"
+                required>
             </div>
 
             <div class="mb-3">
-              <label for="delivery" class="form-label">Delivery Address:</label>
+              <label for="delivery" class="form-label fw-semibold">Delivery Address:</label>
               <textarea class="form-control" id="delivery" name="delivery" rows="3"
-                placeholder="Enter your address to deliver"></textarea>
+                placeholder="Enter your address to deliver" required></textarea>
             </div>
 
 
             <div class="mb-3">
-              <label for="meal">Meal Type:</label>
-              <select class="form-select" aria-label="Default select example" name="mealType" id="">
+              <label for="meal" class="form-label fw-semibold ">Meal Type:</label>
+              <select class="form-select" aria-label="Default select example" name="mealType" id="" required>
                 <option selected>Select a meal type</option>
                 <option value="breakfast">Breakfast</option>
                 <option value="lunch">Lunch</option>
@@ -67,7 +70,7 @@
             </div>
 
             <div class="mb-3">
-              <label class="form-label d-block">Preferred Delivery Time:</label>
+              <label class="form-label d-block fw-semibold">Preferred Delivery Time:</label>
 
               <div class="form-check">
                 <input class="form-check-input" type="radio" name="deliveryTime" id="asap">
@@ -106,14 +109,14 @@
             </div>
 
 
-            <div class="mb-3">
-              <label for="instruction">Special Instraction</label>
+            <div class="mb-4">
+              <label for="instruction" class="form-label fw-semibold">Special Instraction:</label>
               <textarea name="instruction" id="instruction" class="form-control" rows="3"
                 placeholder="Any special request? (e.g., extra napkins, ring doorbell twice)"></textarea>
             </div>
           </div>
 
-          <button class="btn btn_clr w-100 text-black">Place Order</button>
+          <button class="btn btn_clr w-100 text-white py-2 fw-medium">Place Order</button>
         </div>
       </form>
     </div>
