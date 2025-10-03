@@ -1,0 +1,14 @@
+.bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/bg2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.form_bg {
+  background-color: rgba(129, 129, 128, 0.7);
+}
+
+.btn_clr {
+  background-color: rgb(217, 104, 52, 0.9);
+}
