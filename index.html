@@ -69,42 +69,66 @@
               </select>
             </div>
 
-            <div class="mb-3">
-              <label class="form-label d-block fw-semibold">Preferred Delivery Time:</label>
+            <div>
+              <div class="mb-3">
+                <label class="form-label d-block fw-semibold">Preferred Delivery Time:</label>
 
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="deliveryTime" id="asap">
-                <label class="form-check-label" for="asap">
-                  As soon as possible
-                </label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="deliveryTime" id="asap">
+                  <label class="form-check-label" for="asap">
+                    As soon as possible
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="deliveryTime" id="30min">
+                  <label class="form-check-label" for="30min">
+                    In 30 minutes
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="deliveryTime" id="1hour">
+                  <label class="form-check-label" for="1hour">
+                    In 1 hour
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="deliveryTime" id="2hours">
+                  <label class="form-check-label" for="2hours">
+                    In 2 hours
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="deliveryTime" id="contactless">
+                  <label class="form-check-label" for="contactless">
+                    Contactless delivery (leave at door)
+                  </label>
+                </div>
               </div>
 
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="deliveryTime" id="30min">
-                <label class="form-check-label" for="30min">
-                  In 30 minutes
-                </label>
-              </div>
-
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="deliveryTime" id="1hour">
-                <label class="form-check-label" for="1hour">
-                  In 1 hour
-                </label>
-              </div>
-
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="deliveryTime" id="2hours">
-                <label class="form-check-label" for="2hours">
-                  In 2 hours
-                </label>
-              </div>
-
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="deliveryTime" id="contactless">
-                <label class="form-check-label" for="contactless">
-                  Contactless delivery (leave at door)
-                </label>
+              <div class="mb-3">
+                <label class="form-label d-block fw-semibold">Payment Method:</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="paymentMethod" id="cod" required>
+                  <label class="form-check-label" for="cod">
+                    Cash on Delivery
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="paymentMethod" id="card">
+                  <label class="form-check-label" for="card">
+                    Credit/Debit Card
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="paymentMethod" id="bkash">
+                  <label class="form-check-label" for="bkash">
+                    bKash/Nagad/Rocket
+                  </label>
+                </div>
               </div>
             </div>
 
@@ -115,6 +139,9 @@
                 placeholder="Any special request? (e.g., extra napkins, ring doorbell twice)"></textarea>
             </div>
           </div>
+
+
+
 
           <button class="btn btn_clr w-100 text-white py-2 fw-medium">Place Order</button>
         </div>

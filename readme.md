@@ -55,6 +55,7 @@ Live Demo: (https://fatemadiba.github.io/lab_report_2/)
 - Delivery address input and special instructions  
 - Meal type selection (Breakfast, Lunch, Snacks, Dinner)  
 - Delivery time preferences with radio options  
+- Payment preferences with radio options  
 - Responsive layout with background image and overlay  
 - Styled using Bootstrap and custom CSS  
 
